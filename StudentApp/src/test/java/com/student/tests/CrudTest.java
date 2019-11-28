@@ -5,8 +5,7 @@ import java.util.List;
 
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
+
 
 import com.github.javafaker.Faker;
 import com.student.requests.RequestFactory;
@@ -20,7 +19,6 @@ import io.qameta.allure.junit4.DisplayName;
 import io.qameta.allure.junit4.Tag;
 
 
-@RunWith(Parameterized.class)
 @Story("This is a CRUD testing story")
 public class CrudTest extends TestBase{
 	
